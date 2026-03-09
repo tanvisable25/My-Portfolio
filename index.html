@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Anuj Sable | Data Science Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .hero {
+        padding-bottom: 20px !important;
+      }
+      #about-section {
+        padding-top: 40px !important;
+      }
+
+      #typing-animation {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffbd39;
+      }
+
+      .skill-mf .progress {
+        margin: 0.5rem 0 1.2rem 0;
+        border-radius: 0;
+        height: 0.7rem;
+      }
+      .skill-mf .progress .progress-bar {
+        height: 0.7rem;
+        background-color: #ffbd39;
+      }
+
+      .tech-stack-icon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 8px;
+        transition: transform 0.3s ease;
+      }
+      .tech-stack-icon:hover {
+        transform: scale(1.2);
+      }
+
+      .hero-img-circle {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 15px solid #ffbd39;
+        background-size: cover;
+        background-position: top center;
+        box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
+      }
+
+      @media (max-width: 768px) {
+        .hero-img-circle {
+          width: 280px;
+          height: 280px;
+          border-width: 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Anuj Sable</a>
+        <button
+          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link"><span>About</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#project-section" class="nav-link"
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home-section" class="hero">
+      <div class="home-slider owl-carousel">
+        <div class="slider-item">
+          <div class="overlay"></div>
+          <div class="container">
+            <div
+              class="row d-md-flex no-gutters slider-text align-items-center justify-content-center"
+            >
+              <div class="col-md-7 ftco-animate text-center text-md-left">
+                <div class="text">
+                  <span class="subheading">Welcome to my Portfolio</span>
+                  <h1 class="mb-4 mt-3">I'm <span>Anuj Sable</span></h1>
+                  <span id="typing-animation"></span>
+                  <br /><br />
+                  <h2>DATA SCIENCE INTERN</h2>
+                  <p>
+                    <a
+                      href="https://www.linkedin.com/in/anujsable/"
+                      class="btn btn-primary py-3 px-4"
+                      >LinkedIn Profile</a
+                    >
+                    <a
+                      href="https://github.com/AnujSable"
+                      class="btn btn-white btn-outline-white py-3 px-4"
+                      >GitHub Repos</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 ftco-animate d-flex justify-content-center">
+                <div
+                  class="hero-img-circle"
+                  style="background-image: url(images/bg_1.png)"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <div class="overlay">
+                <div class="skill-mf">
+                  <p class="title-s">Core Competencies</p>
+                  <span>Python (Pandas, Scikit-Learn)</span>
+                  <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 90%"></div>
+                  </div>
+
+                  <span>Machine Learning & NLP</span>
+                  <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 85%"></div>
+                  </div>
+
+                  <span>SQL & NoSQL (MongoDB)</span>
+                  <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 80%"></div>
+                  </div>
+
+                  <span>Data Visualization (Power BI)</span>
+                  <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 85%"></div>
+                  </div>
+
+                  <span>Java & Data Structures</span>
+                  <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+            <div class="heading-section ftco-animate">
+              <h1 class="big">Profile</h1>
+              <h2 class="mb-4">Professional Overview</h2>
+              <p>
+                Current Data Science Intern at Cognifyz Technologies
+                specializing in delivering data-driven solutions through machine
+                learning and advanced analytics. I have experience in full-cycle
+                ML workflows, from preprocessing complex datasets to deploying
+                interactive web applications using Streamlit.
+              </p>
+              <ul class="about-info mt-4 px-md-0 px-2">
+                <li class="d-flex">
+                  <span>Current Role:</span>
+                  <span>Data Science Intern @ Cognifyz </span>
+                </li>
+                <li class="d-flex">
+                  <span>Education:</span>
+                  <span>B.Tech in Computer Science (Data Science)</span>
+                </li>
+                <li class="d-flex">
+                  <span>Key Skills:</span>
+                  <span>ML Pipelines, NLP, Data Visualization</span>
+                </li>
+                <li class="d-flex">
+                  <span>Location:</span> <span>Pune, Maharashtra</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="row mt-5 ftco-animate">
+              <div class="col-md-12">
+                <h3 class="mb-4">Technical Stack</h3>
+                <div class="d-flex flex-wrap" style="gap: 25px">
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">Python</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">Java</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">MySQL</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">MongoDB</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">Pandas</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">Scikit-Learn</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">HTML5</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">CSS3</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">JS</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">Git</p>
+                  </div>
+                  <div class="text-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                      class="tech-stack-icon"
+                    />
+                    <p style="font-size: 11px">GitHub</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Experience & Education</h2>
+            <p>
+              <a
+                href="assets/AnujSable_Resume.pdf"
+                target="_blank"
+                class="btn btn-primary py-3 px-4"
+                >Download Full Resume</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="mb-4">Industry Experience</h3>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Feb 2026 - Present</span>
+              <h2>Data Science Intern</h2>
+              <span class="position">Cognifyz Technologies</span>
+              <p class="mt-4">
+                Analyzing complex datasets, performing geospatial analysis, and
+                building predictive models for restaurant distribution and
+                rating trends. Assisting in data-driven solution development.
+              </p>
+            </div>
+
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Oct 2025</span>
+              <h2>Data Modeling Internship</h2>
+              <span class="position">British Airways (via Forage)</span>
+              <p class="mt-4">
+                Developed strategic demand forecasting models and eligibility
+                criteria for premium lounge tiers. Analyzed flight schedules at
+                Heathrow Terminal 3 to justify infrastructure investments.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="mb-4">Academic Background</h3>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2023 - 2027</span>
+              <h2>B.Tech in Computer Science (Data Science)</h2>
+              <span class="position"
+                >D.Y. Patil Technical Campus, Kolhapur</span
+              >
+              <p class="mt-4">
+                Focusing on Machine Learning, Database Management Systems
+                (SQL/NoSQL), and Data Structures. Currently maintaining high
+                academic standards in DS core subjects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Work</h1>
+            <h2 class="mb-4">Deployment Projects</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://github.com/AnujSable/House-Price-Prediction"
+                class="block-20"
+                style="background-image: url(&quot;images/proj_1.jpg&quot;)"
+              ></a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a href="https://github.com/AnujSable/House-Price-Prediction"
+                    >House Price Prediction App</a
+                  >
+                </h3>
+                <p>
+                  An end-to-end ML application achieving 96% accuracy using
+                  Random Forest Regressors, deployed via Streamlit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://github.com/AnujSable/SMS-Spam-Detection"
+                class="block-20"
+                style="background-image: url(&quot;images/proj_2.jpg&quot;)"
+              ></a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a href="https://github.com/AnujSable/SMS-Spam-Detection"
+                    >NLP Spam Detection System</a
+                  >
+                </h3>
+                <p>
+                  98% accuracy in real-time classification using TF-IDF and
+                  Logistic Regression, fully deployed on the web.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="certifications-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Certifications</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="services-1 text-center">
+              <span class="icon"><i class="flaticon-analysis"></i></span>
+              <div class="desc">
+                <h3 class="mb-4">Introduction to SQL</h3>
+                <p><strong>Simplilearn</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="services-1 text-center">
+              <span class="icon"><i class="flaticon-analysis"></i></span>
+              <div class="desc">
+                <h3 class="mb-4">Machine Learning Using Python</h3>
+                <p><strong>Simplilearn</strong></p>
+                <p>
+                  <a
+                    href="https://certificates.simplicdn.net/share/9925856_9989031_1772767389410.pdf"
+                    target="_blank"
+                    class="btn btn-primary py-2 px-3"
+                    style="font-size: 10px"
+                    >View Certificate</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="services-1 text-center">
+              <span class="icon"><i class="flaticon-flasks"></i></span>
+              <div class="desc">
+                <h3 class="mb-4">Data Science Foundations</h3>
+                <p><strong>IBM</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate mt-4">
+            <div class="services-1 text-center">
+              <span class="icon"><i class="flaticon-ideas"></i></span>
+              <div class="desc">
+                <h3 class="mb-4">Python for Data Science</h3>
+                <p><strong>IBM</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="ftco-section contact-section ftco-no-pb"
+      id="contact-section"
+    >
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Get in Touch</h2>
+          </div>
+        </div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-phone2"></span>
+              </div>
+              <h3 class="mb-4">Phone</h3>
+              <p><a href="tel://7517808933">+91 7517808933</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-paper-plane"></span>
+              </div>
+              <h3 class="mb-4">Email</h3>
+              <p>
+                <a href="mailto:anujsable751@gmail.com"
+                  >anujsable751@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-globe"></span>
+              </div>
+              <h3 class="mb-4">Location</h3>
+              <p>Pune, Maharashtra, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Anuj Sable | All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+
+    <script>
+      const typingAnimationElement =
+        document.getElementById("typing-animation");
+      const typingTexts = [
+        "Data Scientist  ",
+        "Machine Learning Engineer ",
+        "Python Developer ",
+      ];
+      function playTypingAnimation(text) {
+        for (let i = 0; i < text.length; i++) {
+          setTimeout(() => {
+            typingAnimationElement.textContent += text[i];
+          }, i * 150);
+        }
+        setTimeout(
+          () => {
+            typingAnimationElement.textContent = "";
+            playTypingAnimation(
+              typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length],
+            );
+          },
+          text.length * 150 + 1000,
+        );
+      }
+      playTypingAnimation(typingTexts[0]);
+    </script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
